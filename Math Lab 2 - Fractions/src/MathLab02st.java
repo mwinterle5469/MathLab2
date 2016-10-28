@@ -27,20 +27,59 @@ public class MathLab02st
 
 class Rational
 {
-		
+		private int num, den;
 //	Rational
-	
+	public Rational(int n, int d)
+	{
+		num = n;
+		den = d;
+	}
 //	getNum
-	
+	public int getNum()
+	{
+		return num;
+	}
 //	getDen
-
+	public int getDen()
+	{
+		return den;
+	}
 //	getDecimal
-
+	public double getDecimal()
+	{
+		return num/den;
+	}
 //	getRational 
+	public String getRational()
+	{
+		return num + "/" + den;
+	}
 	
 //	getOriginal
-
+	public int getOriginal()
+	{
+		
+	}
 //	reduce
+
+	public Rational(int num, int den) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public String getDecimal() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getDen() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getNum() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 	private int getGCF(int n1,int n2)
 	{
